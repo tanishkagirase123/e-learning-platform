@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillBoost - E-Learning Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">SkillBoost</div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#lessons">Lessons</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home -->
+    <section id="home">
+        <h1>Welcome to SkillBoost 🚀</h1>
+        <p>Learn Web Development from scratch with our free lessons.</p>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <h2>About SkillBoost</h2>
+        <p>SkillBoost is an e-learning platform designed to help beginners learn web development in a simple and interactive way. Learn HTML, CSS, and JavaScript from real tutorials.</p>
+    </section>
+
+    <!-- Lessons -->
+    <section id="lessons">
+        <h2>Lessons</h2>
+
+        <div class="lesson">
+            <h3>Lesson 1: Introduction to Web Development</h3>
+            <iframe data-index="0" src="https://www.youtube.com/embed/Ke90Tje7VS0" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <div class="lesson">
+            <h3>Lesson 2: Basics of HTML</h3>
+            <iframe data-index="1" src="https://www.youtube.com/embed/pQN-pnXPaVg" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <div class="lesson">
+            <h3>Lesson 3: CSS Essentials</h3>
+            <iframe data-index="2" src="https://www.youtube.com/embed/1Rs2ND1ryYc" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <div class="lesson">
+            <h3>Lesson 4: JavaScript Basics</h3>
+            <iframe data-index="3" src="https://www.youtube.com/embed/hdI2bqOjy3c" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <div class="progress-section">
+            <h3>Course Progress</h3>
+            <div class="progress-bar">
+                <div id="progress"></div>
+            </div>
+            <p id="progress-text">0% Completed</p>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@skillboost.com</p>
+        <p>Phone: +1 234 567 890</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2025 SkillBoost | All rights reserved.
+    </footer>
+
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
